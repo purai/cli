@@ -11,5 +11,8 @@
     "license": "ISC",
     "bin": {
         "purai": "./bin/index.js"
+    },
+    "devDependencies": {
+        "eslint-config-rallycoding": "^3.2.0"
     }
 }
