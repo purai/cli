@@ -1,0 +1,15 @@
+{
+    "name": "purai_cli",
+    "version": "1.0.0",
+    "description": "The CLI is used to manage PurAí API from the command line.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Felipe Mendes",
+    "license": "ISC",
+    "bin": {
+        "purai": "./bin/index.js"
+    }
+}
