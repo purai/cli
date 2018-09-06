@@ -7,6 +7,8 @@
 # CLI to manage PurAí API
 The CLI is used to manage PurAí API from the command line.
 
+![cli](/screenshot.png "cli")
+
 ## Installation
 Get via git clone:
 ```
@@ -19,11 +21,9 @@ Get dependencies with [NPM](http://npmjs.org/):
 $ npm install
 ```
 
-## Usage
-
-1. Run `npm link` to be executable
-2. Run `purai` to get all events from API
-3. Optionally pass a term to get filtered by event title, place, address and city. Like `purai sample`
+## Command Topics
+* `purai` - Get all events from API
+* `purai sample` - Optionally pass a term to get filtered by event title, place, address and city
 
 ## License
 This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE) file for details

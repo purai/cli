@@ -17,8 +17,9 @@ http
         });
 
         res.on('end', function () {
-            var event = JSON.parse(data)
-            //var event = JSON.parse(data).events[0].title
-            console.log(event)
+            var items = JSON.parse(data)
+            for (e in items.events) {
+                console.log(`Event (${items.events[e].id}): ${items.events[e].title} - ${items.events[e].uuid}`)
+            }
         })
     })
