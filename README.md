@@ -12,7 +12,7 @@ The CLI is used to manage PurAí API from the command line.
 ## Installation
 Get via git clone:
 ```
-$ git clone https://github.com/felipemendes/purai_cli.git
+$ git clone https://github.com/purai/cli.git
 $ cd purai_cli
 ```
 
