@@ -13,7 +13,7 @@ The CLI is used to manage PurAí API from the command line.
 Get via git clone:
 ```
 $ git clone https://github.com/purai/cli.git
-$ cd purai_cli
+$ cd cli
 ```
 
 Get dependencies with [NPM](http://npmjs.org/):
